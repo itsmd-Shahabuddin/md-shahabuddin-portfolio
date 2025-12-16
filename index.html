@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Md Shahabuddin — Portfolio</title>
+  <meta name="description" content="Md Shahabuddin — AI Engineering of Autonomous Systems • Software Engineering • Data Analysis." />
+  <meta property="og:title" content="Md Shahabuddin — Portfolio" />
+  <meta property="og:description" content="AI Engineering of Autonomous Systems • Software Engineering • Data Analysis." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b0b0d" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar" id="top">
+    <div class="wrap nav">
+      <a class="logo" href="#top" aria-label="Home">
+        <span class="logoMark" aria-hidden="true"></span>
+        <span class="logoText">Md Shahabuddin</span>
+      </a>
+
+      <nav class="navLinks" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="navRight">
+        <button class="iconBtn" id="themeBtn" type="button" aria-label="Toggle theme">
+          <span id="themeIcon" aria-hidden="true">☾</span>
+        </button>
+        <a class="btn btnSoft" href="cv.pdf" target="_blank" rel="noopener">CV</a>
+        <button class="burger" id="menuBtn" type="button" aria-label="Open menu">
+          <span class="burgerLines" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawerPanel" role="dialog" aria-label="Menu">
+      <a href="#work" data-close>Work</a>
+      <a href="#experience" data-close>Experience</a>
+      <a href="#about" data-close>About</a>
+      <a href="#contact" data-close>Contact</a>
+      <a class="btn btnPrimary drawerCta" href="cv.pdf" target="_blank" rel="noopener" data-close>Open CV</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="wrap heroGrid">
+        <div class="heroLeft">
+          <p class="eyebrow reveal">AI Engineering • Software Engineering • Data Analysis</p>
+          <h1 class="title reveal">
+            Building <span class="grad">autonomous-ready</span> systems with
+            <span class="grad2">clean</span> engineering.
+          </h1>
+          <p class="subtitle reveal">
+            I'm <strong>Md Shahabuddin</strong> — Master’s student in <strong>AI Engineering of Autonomous Systems</strong> at <strong>TH Ingolstadt</strong>.
+            Previously: Software Engineer & Data Analyst roles. I ship reliable backends, data workflows, and AI prototypes.
+          </p>
+          <div class="heroActions reveal">
+            <a class="btn btnPrimary" href="#work">See work</a>
+            <a class="btn btnGhost" href="#contact">Contact</a>
+            <a class="btn btnSoft" href="cv.pdf" target="_blank" rel="noopener">Download CV</a>
+          </div>
+
+          <div class="ticker" aria-label="Skills marquee">
+            <div class="tickerTrack">
+              <span>Python</span><span>SQL</span><span>Django</span><span>Data Analysis</span><span>Automation</span><span>AI Engineering</span><span>Autonomous Systems</span><span>Reporting</span><span>Problem Solving</span>
+              <span>Python</span><span>SQL</span><span>Django</span><span>Data Analysis</span><span>Automation</span><span>AI Engineering</span><span>Autonomous Systems</span><span>Reporting</span><span>Problem Solving</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="heroRight reveal">
+          <div class="portraitCard">
+            <div class="portrait">
+              <img src="profile.jpg" alt="Md Shahabuddin portrait" />
+            </div>
+            <div class="portraitBody">
+              <div class="status">
+                <span class="dot" aria-hidden="true"></span>
+                <span>Open to internships • student roles</span>
+              </div>
+
+              <div class="meta">
+                <div class="metaRow">
+                  <span class="k">Email</span>
+                  <a id="emailLink" class="v" href="mailto:itsmd.shahabuddin@gmail.com">itsmd.shahabuddin@gmail.com</a>
+                </div>
+                <div class="metaRow">
+                  <span class="k">Phone</span>
+                  <a class="v" href="tel:+4915734893138">+49 157 34893138</a>
+                </div>
+                <div class="metaRow">
+                  <span class="k">Location</span>
+                  <span class="v">Ingolstadt, Germany</span>
+                </div>
+              </div>
+
+              <div class="social">
+                <a class="chipLink" id="githubLink" href="#" target="_blank" rel="noopener">GitHub</a>
+                <a class="chipLink" id="linkedinLink" href="#" target="_blank" rel="noopener">LinkedIn</a>
+                <a class="chipLink" href="#contact">Message</a>
+              </div>
+
+              <p class="hint">Edit social links in <code>settings.json</code>.</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="heroGlow" aria-hidden="true"></div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="wrap">
+        <div class="sectionHead">
+          <h2 class="h2 reveal">Selected Work</h2>
+          <p class="muted reveal">A few projects that represent my skills and interests.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card reveal">
+            <div class="cardTop">
+              <h3>Tourism Management System</h3>
+              <span class="badge">Web App</span>
+            </div>
+            <p class="muted">A dynamic tour management website for agencies: manage packages, search/update offerings, and support customer browsing by budget & destination.</p>
+            <div class="stack">
+              <span>Web</span><span>CRUD</span><span>Search</span><span>Admin</span>
+            </div>
+            <div class="cardActions">
+              <a class="btn btnSoft" href="https://drive.google.com/file/d/1P1eKitSAtOt4roNt86XN2pO2fTQuKidX/view?usp=sharing" target="_blank" rel="noopener">View</a>
+              <a class="btn btnGhost" href="#contact">Request code</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="cardTop">
+              <h3>IoT Smart Home Automation & Security</h3>
+              <span class="badge">Thesis</span>
+            </div>
+            <p class="muted">IoT system for monitoring and automation: appliance control, gas leak alerts, door presence detection, fire alerts, and mobile notifications.</p>
+            <div class="stack">
+              <span>IoT</span><span>Sensors</span><span>Microcontrollers</span><span>Alerts</span>
+            </div>
+            <div class="cardActions">
+              <a class="btn btnSoft" href="https://drive.google.com/file/d/1LHuyBzhswEeffgrQ-KQNMCEfYX7t_iBw/view" target="_blank" rel="noopener">Read</a>
+              <a class="btn btnGhost" href="#contact">Ask details</a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="cardTop">
+              <h3>Data Reporting & Automation</h3>
+              <span class="badge">Ops Analytics</span>
+            </div>
+            <p class="muted">Built and maintained KPI reporting workflows, ensured data quality, and supported stakeholders with insights using Excel, SQL, and Python automation.</p>
+            <div class="stack">
+              <span>Excel</span><span>SQL</span><span>Python</span><span>KPIs</span>
+            </div>
+            <div class="cardActions">
+              <a class="btn btnSoft" href="cv.pdf" target="_blank" rel="noopener">Details in CV</a>
+              <a class="btn btnGhost" href="#contact">Discuss</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="experience">
+      <div class="wrap">
+        <div class="sectionHead">
+          <h2 class="h2 reveal">Experience</h2>
+          <p class="muted reveal">Roles that shaped how I build and collaborate.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="tlItem reveal">
+            <div class="tlLine" aria-hidden="true"></div>
+            <div class="tlCard">
+              <div class="tlTop">
+                <h3>Back Office Support Analyst</h3>
+                <span class="badge">Aug 2023 — Jun 2024</span>
+              </div>
+              <p class="muted">Banglalink Digital • Dhaka, Bangladesh</p>
+              <ul class="bullets">
+                <li>Collected, cleaned, validated, and transformed multi-source data.</li>
+                <li>Produced KPI reports and visualizations for decision-making.</li>
+                <li>Maintained data repositories and improved processes with automation.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tlItem reveal">
+            <div class="tlLine" aria-hidden="true"></div>
+            <div class="tlCard">
+              <div class="tlTop">
+                <h3>Software Engineer</h3>
+                <span class="badge">Jan 2023 — Jul 2023</span>
+              </div>
+              <p class="muted">E-Freelancing.com • Dhaka, Bangladesh</p>
+              <ul class="bullets">
+                <li>Gathered requirements and implemented features to spec.</li>
+                <li>Debugged production issues; collaborated cross-functionally.</li>
+                <li>Contributed documentation and participated in code reviews.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tlItem reveal">
+            <div class="tlLine" aria-hidden="true"></div>
+            <div class="tlCard">
+              <div class="tlTop">
+                <h3>Software Engineer (Intern)</h3>
+                <span class="badge">Oct 2021 — Jan 2022</span>
+              </div>
+              <p class="muted">Devine IT Limited • Dhaka, Bangladesh</p>
+              <ul class="bullets">
+                <li>Built testable software and supported integration/validation.</li>
+                <li>Worked closely with QA to investigate bugs and write test cases.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="sectionHead">
+          <h2 class="h2 reveal">About</h2>
+          <p class="muted reveal">Quick overview + education.</p>
+        </div>
+
+        <div class="split">
+          <div class="panel reveal">
+            <h3>Profile</h3>
+            <p>I’m a Computer Science Engineering graduate with a passion for software engineering, AI, and data analysis. I enjoy building robust systems, communicating clearly with stakeholders, and improving processes through automation.</p>
+            <p class="muted">I’m excited to contribute to meaningful problems and grow with a strong engineering team.</p>
+
+            <div class="skillsGrid" aria-label="Core skills">
+              <span class="skill">Python</span>
+              <span class="skill">SQL</span>
+              <span class="skill">Django</span>
+              <span class="skill">Excel</span>
+              <span class="skill">Data Cleaning</span>
+              <span class="skill">Reporting</span>
+              <span class="skill">Automation</span>
+              <span class="skill">Security-minded dev</span>
+            </div>
+          </div>
+
+          <div class="panel reveal">
+            <h3>Education</h3>
+            <div class="edu">
+              <div class="eduRow">
+                <div>
+                  <div class="eduTitle">Master of Engineering</div>
+                  <div class="muted">Technische Hochschule Ingolstadt • Germany</div>
+                </div>
+                <div class="badge">Mar 2024 — Current</div>
+              </div>
+              <div class="muted small">AI Engineering of Autonomous Systems</div>
+            </div>
+
+            <div class="edu">
+              <div class="eduRow">
+                <div>
+                  <div class="eduTitle">BSc in Computer Science & Engineering</div>
+                  <div class="muted">IUBAT • Bangladesh</div>
+                </div>
+                <div class="badge">2018 — 2022</div>
+              </div>
+              <div class="muted small">Final grade: 3.37 • Thesis: IoT Based Smart Home Automation and Security System</div>
+            </div>
+
+            <div class="edu">
+              <div class="eduRow">
+                <div>
+                  <div class="eduTitle">Python Django Course Certificate</div>
+                  <div class="muted">E-Freelancing.com</div>
+                </div>
+                <div class="badge">2022</div>
+              </div>
+            </div>
+
+            <div class="calloutMini">
+              <div>
+                <strong>Want case-study pages like Squarespace templates?</strong>
+                <div class="muted small">I can add extra pages (still GitHub Pages).</div>
+              </div>
+              <a class="btn btnPrimary" href="#contact">Request</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="contact">
+      <div class="wrap">
+        <div class="sectionHead">
+          <h2 class="h2 reveal">Contact</h2>
+          <p class="muted reveal">Form opens your email client (no backend needed).</p>
+        </div>
+
+        <div class="contactGrid">
+          <div class="panel reveal">
+            <h3>Let’s talk</h3>
+            <p class="muted">Tell me about the role, project, or collaboration. I’ll respond as soon as possible.</p>
+            <div class="contactMeta">
+              <a class="chipLink" href="mailto:itsmd.shahabuddin@gmail.com">itsmd.shahabuddin@gmail.com</a>
+              <a class="chipLink" href="tel:+4915734893138">+49 157 34893138</a>
+              <span class="chipLink">Ingolstadt, Germany</span>
+            </div>
+
+            <div class="settingsBox">
+              <div class="settingsHead">
+                <strong>Quick settings</strong>
+                <span class="muted small">Optional</span>
+              </div>
+              <p class="muted small">Add your GitHub/LinkedIn URLs in <code>settings.json</code> and re-upload.</p>
+            </div>
+          </div>
+
+          <form class="panel reveal" id="contactForm">
+            <h3>Message</h3>
+            <div class="fields">
+              <label>
+                <span>Name</span>
+                <input required name="name" placeholder="Your name" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input required type="email" name="email" placeholder="you@example.com" />
+              </label>
+              <label class="full">
+                <span>Message</span>
+                <textarea required name="message" placeholder="Hi Md Shahabuddin, I’d like to discuss…"></textarea>
+              </label>
+            </div>
+            <div class="formActions">
+              <button class="btn btnPrimary" type="submit">Send</button>
+              <a class="btn btnGhost" href="cv.pdf" target="_blank" rel="noopener">Open CV</a>
+            </div>
+            <p class="muted small">No data is stored on this website. Your email app will open with the message.</p>
+          </form>
+        </div>
+
+        <footer class="footer">
+          <div class="muted small">© <span id="year"></span> Md Shahabuddin • Hosted on GitHub Pages</div>
+          <a class="muted small" href="#top">Back to top ↑</a>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
