@@ -1,9 +1,6 @@
-# Md Shahabuddin — Portfolio Website
+# Md Shahabuddin — Portfolio Website (Fixed)
+- Email typo fixed everywhere
+- Contact section now includes your photo (avatar)
+- Removed the “Quick settings” box
 
-## What to edit
-Open `settings.json` and put your real links:
-- github
-- linkedin
-
-## Deploy on GitHub Pages
-Repo Settings → Pages → Deploy from a branch → main / (root) → Save
+Deploy: GitHub repo → Settings → Pages → main / (root)

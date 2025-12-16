@@ -449,3 +449,26 @@ textarea{min-height: 120px; resize: vertical}
   .navLinks{display:none}
   .burger{display:grid}
 }
+
+/* Contact photo row */
+.contactAvatarRow{
+  margin-top: 14px;
+  display:flex;
+  align-items:center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,.03);
+}
+.contactAvatar{
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 1px solid var(--line2);
+  box-shadow: 0 12px 26px rgba(0,0,0,.20);
+}
+.contactName{
+  font-weight: 900;
+}
